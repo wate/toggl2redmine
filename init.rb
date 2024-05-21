@@ -18,4 +18,7 @@ Rails.configuration.to_prepare do
          { controller: 't2r_import', action: 'index' },
          caption: 'Toggl'
   end
+
+  # Patches.
+  require_relative 'lib/patches/time_entry'
 end
