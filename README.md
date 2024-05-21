@@ -122,7 +122,8 @@ Docker, you can do so with ease.
 
   * Clone the code repository.
     ```
-    git clone --branch 4.x git@github.com:jigarius/toggl2redmine.git
+    # Replace x.y with a real branch name, e.g. 5.x
+    git clone --branch x.y git@github.com:jigarius/toggl2redmine.git
     cd toggl2redmine
     ```
   * Prepare docker containers.
@@ -157,7 +158,7 @@ your password or test Toggl 2 Redmine with more than one user accounts.
 
 * Thanks [Evolving Web](https://evolvingweb.ca/) for funding the initial
   development of this plugin.
-* Thanks [Jigar Mehta (Jigarius)](https://jigarius.com/about) (that's me)
+* Thanks [Jigarius](https://jigarius.com/about) (that's me)
   for spending many evenings and weekends to make this plugin possible.
 * Thanks [JetBrains](https://jetbrains.com/) for their Open Source License,
-  without which development would have been very difficult
+  without which development would have been very difficult.
